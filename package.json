@@ -1,0 +1,30 @@
+{
+  "name": "designpattern-learn",
+  "version": "1.0.0",
+  "description": "study design pattern with typescript",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bononwj/designPattern-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bononwj/designPattern-learn/issues"
+  },
+  "homepage": "https://github.com/bononwj/designPattern-learn#readme",
+  "dependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
