@@ -3,6 +3,9 @@ module.exports = {
     output: {
         filename: './bundle.js'
     },
+    resolve:{
+        extensions:['.js','.ts','.json']
+    },
     module: {
         rules: [{
             test: /\.ts$/,
